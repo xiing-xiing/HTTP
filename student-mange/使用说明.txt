@@ -1,0 +1,10 @@
+首先搭建环境
+推荐使用 WAMP5-v1.7.4
+你可以在我的资源里下载
+然后把数据库文件导入 sgrademangement.sql
+最后需要授权一下在sql写
+grant all
+on sgrademangement.*
+to customer
+identified by 'password'
+执行即可

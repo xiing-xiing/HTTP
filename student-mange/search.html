@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>学生成绩管理系统</title>
+</head>
+<script language="javascript">
+function tosubmit1()
+{
+document.form1.action = "search_grade.php";
+documenr.form1.submit();
+}
+function tosubmit2()
+{
+document.form1.action = "search_student.php";
+document.form1.submit();
+}
+</script>
+<body background="pic/bg.gif">
+<form name="form1" method="post">
+<table width="767" height="644" border="0" align="center">
+  <tr>
+    <td height="228" background="pic/top.gif">
+    </td>
+  </tr>
+  <tr>
+    <td height="22" background="pic/in_01.gif"></td>
+    </tr>
+  <tr>
+    <td background="pic/in_20.gif"><table width="282" height="103" border="0" align="center">
+      <tr>
+        <td width="120"><strong>用户名</strong>：</td>
+        <td><label>
+          <input type="text" name="sid" />
+        </label></td>
+        </tr>
+      <tr>
+        <td width="120"><label></label></td>
+        <td><input name="submit" type="submit" value="成绩"  onclick="tosubmit1()"/>
+          <input name="submit" type="submit" onclick="tosubmit2()" value="信息" /></td>
+        </tr>
+      
+    </table></td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

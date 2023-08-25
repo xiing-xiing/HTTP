@@ -1,0 +1,20 @@
+1 .vscode                          - vscode工具的配置文件夹
+2 node_modules                     - vue项目的运行依赖文件夹
+3 public                           - 资源文件夹（浏览器图标）
+4 src                              - 源码文件夹
+5 .gitignore                       - git忽略文件
+6 index.html                       - 入口HTML文件
+7 package.json                     - 信息描述文件
+8 README. md                       - 注释文件
+9 vite.config.js                   - vue配置文件
+
+
+随后删除src/components目录下的所有文件
+删除App.vue为如下所示：
+<template>
+
+</template>
+
+<script setup>
+
+</script>

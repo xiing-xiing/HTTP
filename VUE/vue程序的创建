@@ -1,0 +1,8 @@
+先看自己的node版本：node -v
+
+创建vue项目：npm init vue@latest
+随后输入自己项目信息
+
+安装项目相关依赖：npm install
+
+启动项目：npm run dev
